@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: gainsboro;
+  padding-bottom: 80px;
+}
+
+.title {
+  background: white; 
+  width: 100%;  
+}
+
+.title h1 {
+  margin: 0;
+  text-align: center; 
+  padding: 10px 0;
+}
+
+.feed {
+  display: flex;             
+  flex-direction: column;    
+  gap: 30px;                 
+  width: 100%;
+  align-items: center;    
+  background: gainsboro;   
+}
+
+.post {
+  background: #fff;
+  width: 500px;
+  border: 1px solid #ccc;
+  display: flex;           
+  flex-direction: column;  
+  flex: 0 0 auto;          
+}
+
+.post-header {
+  display: flex;                
+  justify-content: space-between;
+  align-items: center;           
+  padding: 5px 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.post-text{
+  margin: 0;
+  text-align: left; 
+  padding: 10px 10px;         
+}
+
+.date{
+    color: #aaaaaa;
+}
